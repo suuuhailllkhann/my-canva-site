@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://badger-4pq8c6.my.canva.site/*"
+      "source": "/",
+      "destination": "https://badger-4pq8c6.my.canva.site/"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://badger-4pq8c6.my.canva.site/$1"
     }
   ]
 }
